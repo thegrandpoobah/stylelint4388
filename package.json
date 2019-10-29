@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "globby": "^7.0.0",
     "stylelint": "^8.3.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-scss": "^3.4.0"
