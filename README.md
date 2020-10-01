@@ -12,7 +12,18 @@ npx stylelint "with(braket)/*.css"
 
 Notice how the first invocation of stylelint returns linting errors, whereas the second invocation throws a no matches found exception.
 
-Now compare against 8.4.0
+```
+git checkout 13.7.2
+npm install
+npx stylelint --version
+npx stylelint "nobraket/*.css"
+npx stylelint "with(braket)/*.css"
+```
+
+Notice how the first invocation of stylelint returns linting errors, whereas the second invocation throws a no matches found exception.
+
+
+Now compare against 8.3.0
 
 ```
 git checkout 8.3.0
